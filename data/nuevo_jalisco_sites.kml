@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Nuevo Jalisco &amp; Outlying Three-Mound Group (LC-01) — 0.33 m LiDAR</name>
+  <Placemark>
+    <name>Nuevo Jalisco Ceremonial Core (#08 — Gran Plaza &amp; +8.7 m NE Acropolis)</name>
+    <description>Strip ChiapsCampeche_NFI_l0s473 (0.33 m bare-earth LiDAR). Matches Carrasco (1981) 1:100 plan &amp; Tovalin et al. (2004) NAD27 GPS fix within 19.2 m. 40,778 raw .laz ground points in 300x300 m; 1,425 points on the 70x25 m NE Acropolis.</description>
+    <Point><coordinates>-91.168757,16.719521,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tovalin et al. (2004: 55) 2001 Handheld GPS Pin (NAD27 -&gt; WGS84)</name>
+    <description>Converted from published NAD27 UTM 15Q 695,273 E, 1,849,232 N (19.2 m from LiDAR plaza center).</description>
+    <Point><coordinates>-91.168580,16.719550,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>LC-01: Outlying Aligned Mounds &amp; Leveled Terrace (520 m ENE of Nuevo Jalisco)</name>
+    <description>Unmapped outlying platform group (+437 m E, +278 m N of Nuevo Jalisco core) on strip ChiapsCampeche_NFI_l0s473. 38,258 raw .laz ground points in 320x320 m; 3 prominent aligned mounds (+2.8 to +3.5 m) with 360-degree DEM closure atop a 1,282 m2 (&lt;2 deg) leveled terrace along the ENE Lacanja trail.</description>
+    <Point><coordinates>-91.164633,16.721996,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

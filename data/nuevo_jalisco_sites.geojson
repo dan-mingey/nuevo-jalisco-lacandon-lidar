@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.168757,
+          16.719521
+        ]
+      },
+      "properties": {
+        "id": "#08",
+        "name": "Nuevo Jalisco (#08): Classic Maya Ceremonial Center (Gran Plaza & NE Acropolis)",
+        "region": "Lacandon Rainforest Corridor, Chiapas",
+        "strip_id": "ChiapsCampeche_NFI_l0s473",
+        "lat": 16.719521,
+        "lon": -91.168757,
+        "dist_from_nuevo_jalisco_km": 0.0,
+        "tier": "CONFIRMED",
+        "confidence_pct": 99,
+        "n_mounds_0p33m": 5,
+        "n_closed_360_mounds": 3,
+        "n_ortho_rect_mounds": 3,
+        "closed_quadrants_of_4": 3,
+        "plaza_area_lt2deg_m2": 4614.5,
+        "plaza_area_lt3deg_m2": 6642.1,
+        "max_mound_lrm_m": 8.69,
+        "laz_ground_pts_window": 34516,
+        "laz_pts_per_m2": 0.471,
+        "chm_median_m": 25.0,
+        "nearest_known_site": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004) (0.02 km)",
+        "rationale": "Ground-truthed Classic Maya center (Carrasco 1981; Toval\u00edn 2004 19m GPS lock); 4,614 m\u00b2 <2\u00b0 Gran Plaza + +8.7m Acropolis.",
+        "has_lidar_crop": true,
+        "lidar_crop_dir": "lidar_data/nuevo_jalisco_core/",
+        "google_maps_url": "https://www.google.com/maps?q=16.719521,-91.168757&t=k&z=17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.164633,
+          16.721996
+        ]
+      },
+      "properties": {
+        "id": "LC-01",
+        "name": "LC-01: 3-Mound Aligned Terrace Group",
+        "region": "Lacandon Rainforest Corridor, Chiapas",
+        "strip_id": "ChiapsCampeche_NFI_l0s473",
+        "lat": 16.721996,
+        "lon": -91.164633,
+        "dist_from_nuevo_jalisco_km": 0.52,
+        "tier": "TIER B+",
+        "confidence_pct": 82,
+        "n_mounds_0p33m": 5,
+        "n_closed_360_mounds": 5,
+        "n_ortho_rect_mounds": 5,
+        "closed_quadrants_of_4": 3,
+        "plaza_area_lt2deg_m2": 1281.6,
+        "plaza_area_lt3deg_m2": 3748.3,
+        "max_mound_lrm_m": 3.75,
+        "laz_ground_pts_window": 28270,
+        "laz_pts_per_m2": 0.388,
+        "chm_median_m": 29.03,
+        "nearest_known_site": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004) (0.49 km)",
+        "rationale": "520 m ENE of #08: 5/5 closed 360\u00b0 mounds (+3.5m) w/ 2.5\u20133.5m saddles & 1,282 m\u00b2 <2\u00b0 bench; linear row along strike needs field check.",
+        "has_lidar_crop": true,
+        "lidar_crop_dir": "lidar_data/lc01_three_mounds/",
+        "google_maps_url": "https://www.google.com/maps?q=16.721996,-91.164633&t=k&z=17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16858,
+          16.71955
+        ]
+      },
+      "properties": {
+        "id": "TOVALIN-2001-GPS",
+        "name": "Tovalin et al. (2004: 55) Handheld NAD27 GPS Fix (15Q 695273E, 1849232N -> WGS84, 19.2 m from #08)",
+        "strip_id": "ChiapsCampeche_NFI_l0s473",
+        "lat": 16.71955,
+        "lon": -91.16858,
+        "tier": "GROUND-SURVEY PIN",
+        "confidence_pct": 100
+      }
+    }
+  ]
+}

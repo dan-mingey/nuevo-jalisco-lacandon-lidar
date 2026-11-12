@@ -1,0 +1,156 @@
+[
+  {
+    "id": "nuevo_jalisco_core",
+    "label": "Nuevo Jalisco Core (#08) + Outlying Group LC-01 (1.2 x 1.2 km Swath)",
+    "tier": "CONFIRMED (99%)",
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "center_wgs84": {
+      "lat": 16.719521,
+      "lon": -91.168757
+    },
+    "box_size_m": 1200,
+    "crs_wkt": "COMPD_CS[\"WGS 84 / UTM zone 15N + EGM96 height\",PROJCS[\"WGS 84 / UTM zone 15N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-93],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32615\"]],VERT_CS[\"EGM96 height\",VERT_DATUM[\"EGM96 geoid\",2005,AUTHORITY[\"EPSG\",\"5171\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5773\"]]]",
+    "utm_bbox": [
+      694638.98,
+      1848825.29,
+      695838.98,
+      1850025.29
+    ],
+    "wgs84_bbox": [
+      -91.174434,
+      16.71415,
+      -91.163079,
+      16.724892
+    ],
+    "files": {
+      "dem_0p33m": {
+        "file": "lidar_data/nuevo_jalisco_core/DEM_0p33m.tif",
+        "width": 3636,
+        "height": 3636,
+        "res_m": 0.33,
+        "valid_fraction": 0.3404,
+        "min_val": 399.86,
+        "max_val": 468.62,
+        "size_mb": 7.023
+      },
+      "g1_0p33m": {
+        "file": "lidar_data/nuevo_jalisco_core/G1_0p33m.tif",
+        "width": 3636,
+        "height": 3636,
+        "res_m": 0.33,
+        "size_mb": 3.755
+      },
+      "chm_1m": {
+        "file": "lidar_data/nuevo_jalisco_core/CHM_1m.tif",
+        "width": 1200,
+        "height": 1200,
+        "res_m": 1.0,
+        "valid_fraction": 0.2712,
+        "min_val": 0.0,
+        "max_val": 44.57,
+        "size_mb": 1.185
+      },
+      "gnd_laz": {
+        "file": "lidar_data/nuevo_jalisco_core/GND_Class2_8.laz",
+        "point_count": 204808,
+        "classification_counts": {
+          "2": 152689,
+          "8": 52119
+        },
+        "z_min_m": 399.85,
+        "z_max_m": 469.37,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 0.603
+      },
+      "canopy_and_ground_laz": {
+        "file": "lidar_data/nuevo_jalisco_core/CANOPY_AND_GROUND.laz",
+        "point_count": 3495846,
+        "classification_counts": {
+          "1": 3275839,
+          "2": 220007
+        },
+        "z_min_m": 399.85,
+        "z_max_m": 486.93,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 24.297
+      }
+    }
+  },
+  {
+    "id": "lc01_three_mounds",
+    "label": "LC-01: Outlying 5-Mound Terrace Group (520 m ENE of Nuevo Jalisco)",
+    "tier": "TIER B+ (82%)",
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "center_wgs84": {
+      "lat": 16.721996,
+      "lon": -91.164633
+    },
+    "box_size_m": 320,
+    "crs_wkt": "COMPD_CS[\"WGS 84 / UTM zone 15N + EGM96 height\",PROJCS[\"WGS 84 / UTM zone 15N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-93],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32615\"]],VERT_CS[\"EGM96 height\",VERT_DATUM[\"EGM96 geoid\",2005,AUTHORITY[\"EPSG\",\"5171\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5773\"]]]",
+    "utm_bbox": [
+      695516.26,
+      1849543.24,
+      695836.26,
+      1849863.24
+    ],
+    "wgs84_bbox": [
+      -91.166147,
+      16.720564,
+      -91.163119,
+      16.723428
+    ],
+    "files": {
+      "dem_0p33m": {
+        "file": "lidar_data/lc01_three_mounds/DEM_0p33m.tif",
+        "width": 970,
+        "height": 970,
+        "res_m": 0.33,
+        "valid_fraction": 0.9892,
+        "min_val": 401.51,
+        "max_val": 426.85,
+        "size_mb": 1.417
+      },
+      "g1_0p33m": {
+        "file": "lidar_data/lc01_three_mounds/G1_0p33m.tif",
+        "width": 970,
+        "height": 970,
+        "res_m": 0.33,
+        "size_mb": 0.773
+      },
+      "chm_1m": {
+        "file": "lidar_data/lc01_three_mounds/CHM_1m.tif",
+        "width": 320,
+        "height": 320,
+        "res_m": 1.0,
+        "valid_fraction": 0.8986,
+        "min_val": 0.0,
+        "max_val": 44.57,
+        "size_mb": 0.256
+      },
+      "gnd_laz": {
+        "file": "lidar_data/lc01_three_mounds/GND_Class2_8.laz",
+        "point_count": 38258,
+        "classification_counts": {
+          "2": 28905,
+          "8": 9353
+        },
+        "z_min_m": 401.58,
+        "z_max_m": 426.84,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 0.12
+      },
+      "canopy_and_ground_laz": {
+        "file": "lidar_data/lc01_three_mounds/CANOPY_AND_GROUND.laz",
+        "point_count": 841549,
+        "classification_counts": {
+          "1": 800334,
+          "2": 41215
+        },
+        "z_min_m": 401.58,
+        "z_max_m": 464.84,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 5.845
+      }
+    }
+  }
+]
