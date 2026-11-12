@@ -78,6 +78,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -90.890019,
+          16.530595
+        ]
+      },
+      "properties": {
+        "id": "LC-14",
+        "name": "LC-14: Montes Azules 90-Degree L/U-Shaped Masonry Ridge Courtyard",
+        "region": "Montes Azules Biosphere Reserve, Chiapas",
+        "strip_id": "Chiaps1_GLAS_l2s480",
+        "lat": 16.530595,
+        "lon": -90.890019,
+        "dist_from_nuevo_jalisco_km": 36.38,
+        "tier": "TIER A",
+        "confidence_pct": 96,
+        "n_mounds_0p33m": 5,
+        "n_mounds_1m_grammar": 18,
+        "n_closed_360_mounds": 2,
+        "n_ortho_rect_mounds": 1,
+        "closed_quadrants_of_4": 2,
+        "ortho_coherence_0p33m": 0.921,
+        "plaza_area_lt2deg_m2": 706.0,
+        "plaza_area_lt3deg_m2": 1804.5,
+        "max_mound_lrm_m": 4.12,
+        "laz_ground_pts_270m": 38532,
+        "laz_ground_pts_320m": 49920,
+        "laz_pts_per_m2": 0.529,
+        "chm_median_m": 18.91,
+        "chm_max_m": 43.35,
+        "nearest_known_site": "Healy (EAAMS) (5.84 km)",
+        "rationale": "Razor-sharp 90\u00b0 L/U-shaped masonry courtyard atop leveled Montes Azules terrace; 8/8 DEM closure, 49,920 .LAZ ground pts in 320x320 m (0% void).",
+        "has_lidar_crop": true,
+        "lidar_crop_dir": "lidar_data/lc14_montes_azules_courtyard/",
+        "google_maps_url": "https://www.google.com/maps?q=16.530595,-90.890019&t=k&z=17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -91.16858,
           16.71955
         ]

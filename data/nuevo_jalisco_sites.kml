@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-  <name>Nuevo Jalisco &amp; Outlying Three-Mound Group (LC-01) — 0.33 m LiDAR</name>
+  <name>Nuevo Jalisco (#08), Outlying Three-Mound Group (LC-01) &amp; Montes Azules Courtyard (LC-14) — 0.33 m LiDAR</name>
   <Placemark>
     <name>Nuevo Jalisco Ceremonial Core (#08 — Gran Plaza &amp; +8.7 m NE Acropolis)</name>
     <description>Strip ChiapsCampeche_NFI_l0s473 (0.33 m bare-earth LiDAR). Matches Carrasco (1981) 1:100 plan &amp; Tovalin et al. (2004) NAD27 GPS fix within 19.2 m. 40,778 raw .laz ground points in 300x300 m; 1,425 points on the 70x25 m NE Acropolis.</description>
@@ -16,6 +16,11 @@
     <name>LC-01: Outlying Aligned Mounds &amp; Leveled Terrace (520 m ENE of Nuevo Jalisco)</name>
     <description>Unmapped outlying platform group (+437 m E, +278 m N of Nuevo Jalisco core) on strip ChiapsCampeche_NFI_l0s473. 38,258 raw .laz ground points in 320x320 m; 3 prominent aligned mounds (+2.8 to +3.5 m) with 360-degree DEM closure atop a 1,282 m2 (&lt;2 deg) leveled terrace along the ENE Lacanja trail.</description>
     <Point><coordinates>-91.164633,16.721996,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>LC-14: Montes Azules 90-Degree L/U-Shaped Masonry Ridge Courtyard (96% Tier A)</name>
+    <description>Unmapped 90-degree L/U-shaped masonry courtyard &amp; modified ridge terrace inside the Montes Azules Biosphere Reserve on strip Chiaps1_GLAS_l2s480 (omitted from Golden et al. 2016 Table 2, immediately south of s478-s479; 5.84 km E of EAAMS Healy). 49,920 raw .laz ground points (36,804 Class 2 + 13,116 Class 8; 1,007,126 total canopy+ground returns) in 320x320 m under 100% unbroken 19-43 m rainforest; +4.12 m masonry courtyard wing (8/8 DEM closure, 0% void) framing a 706 m2 (&lt;2 deg) / 1,805 m2 (&lt;3 deg) leveled patio.</description>
+    <Point><coordinates>-90.890019,16.530595,0</coordinates></Point>
   </Placemark>
 </Document>
 </kml>

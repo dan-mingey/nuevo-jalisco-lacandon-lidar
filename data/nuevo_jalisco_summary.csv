@@ -1,3 +1,4 @@
 id,name,lat_wgs84,lon_wgs84,strip_id,dist_from_core_m,max_relief_m,leveled_area_lt2deg_m2,laz_ground_pts,canopy_height_med_m,status
 #08,Nuevo Jalisco Ceremonial Core (Gran Plaza & NE Acropolis),16.719521,-91.168757,ChiapsCampeche_NFI_l0s473,0,8.69,4614.5,40778,25.0,Confirmed Classic Maya Center (Carrasco 1981; Tovalin 2004)
 LC-01,Outlying 3-Mound Aligned Terrace Group,16.721996,-91.164633,ChiapsCampeche_NFI_l0s473,520,3.47,1282.0,38258,29.0,Unmapped Outlying Platform Group (82% Tier B+)
+LC-14,Montes Azules 90-Degree L/U-Shaped Masonry Ridge Courtyard,16.530595,-90.890019,Chiaps1_GLAS_l2s480,36380,4.12,706.0,49920,18.9,Unmapped Montes Azules Masonry Courtyard (96% Tier A; 5.84 km E of EAAMS Healy)

@@ -152,5 +152,82 @@
         "size_mb": 5.845
       }
     }
+  },
+  {
+    "id": "lc14_montes_azules_courtyard",
+    "label": "LC-14: Montes Azules 90-Degree L/U-Shaped Masonry Ridge Courtyard",
+    "tier": "TIER A (96%)",
+    "strip_id": "Chiaps1_GLAS_l2s480",
+    "center_wgs84": {
+      "lat": 16.530595,
+      "lon": -90.890019
+    },
+    "box_size_m": 320,
+    "crs_wkt": "COMPD_CS[\"WGS 84 / UTM zone 15N + EGM96 height\",PROJCS[\"WGS 84 / UTM zone 15N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-93],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32615\"]],VERT_CS[\"EGM96 height\",VERT_DATUM[\"EGM96 geoid\",2005,AUTHORITY[\"EPSG\",\"5171\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5773\"]]]",
+    "utm_bbox": [
+      725027.75,
+      1828648.44,
+      725347.75,
+      1828968.44
+    ],
+    "wgs84_bbox": [
+      -90.891533,
+      16.529165,
+      -90.888505,
+      16.532025
+    ],
+    "files": {
+      "dem_0p33m": {
+        "file": "lidar_data/lc14_montes_azules_courtyard/DEM_0p33m.tif",
+        "width": 970,
+        "height": 970,
+        "res_m": 0.33,
+        "valid_fraction": 0.9764,
+        "min_val": 179.09,
+        "max_val": 231.99,
+        "size_mb": 1.614
+      },
+      "g1_0p33m": {
+        "file": "lidar_data/lc14_montes_azules_courtyard/G1_0p33m.tif",
+        "width": 970,
+        "height": 970,
+        "res_m": 0.33,
+        "size_mb": 0.801
+      },
+      "chm_1m": {
+        "file": "lidar_data/lc14_montes_azules_courtyard/CHM_1m.tif",
+        "width": 320,
+        "height": 320,
+        "res_m": 1.0,
+        "valid_fraction": 0.9058,
+        "min_val": 0.0,
+        "max_val": 43.35,
+        "size_mb": 0.264
+      },
+      "gnd_laz": {
+        "file": "lidar_data/lc14_montes_azules_courtyard/GND_Class2_8.laz",
+        "point_count": 49920,
+        "classification_counts": {
+          "2": 36804,
+          "8": 13116
+        },
+        "z_min_m": 179.14,
+        "z_max_m": 232.65,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 0.161
+      },
+      "canopy_and_ground_laz": {
+        "file": "lidar_data/lc14_montes_azules_courtyard/CANOPY_AND_GROUND.laz",
+        "point_count": 1007126,
+        "classification_counts": {
+          "1": 951696,
+          "2": 55430
+        },
+        "z_min_m": 179.14,
+        "z_max_m": 260.04,
+        "z_shift_applied_m": 0.0,
+        "size_mb": 6.699
+      }
+    }
   }
 ]
